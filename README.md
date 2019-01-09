@@ -1,10 +1,10 @@
-#Veebiserverite haldus#
+# Veebiserverite haldus
 
 Veebiserverite installeerimine, haldus ja seadistamine
 
 
 
-##Getting Started##
+## Getting Started
 
 
 
@@ -12,7 +12,7 @@ Vajalik on alguses installeerida netinst debian isoga virtuaalmasin ning see ka 
 
 
 
-##Prerequisites##
+## Prerequisites
 
 Vajalik on internetiühendus ja vajaminev iso
 
@@ -21,7 +21,7 @@ Vahetasin ka võrguadapteri ära NAT-ist bridge'ile
 
 
 
-##Installing process##
+## Installing process
 
 
 
@@ -40,6 +40,6 @@ Tavakasutaja parool – qwerty
 
 -Teenustest ja tarkvarast installeeri ainult põhiutiliidid ja ssh
 
-##Contributing##
+## Contributing
     Erik Sarik - Töö tegija
 
