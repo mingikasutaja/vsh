@@ -2,7 +2,7 @@
 
 Veebiserverite installeerimine, haldus ja seadistamine
 
-
+Füüsilise arvuti number on 7
 
 ## Getting Started
 
