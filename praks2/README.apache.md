@@ -27,3 +27,13 @@ truncate -s 0 index.html
 
 </body>
 </html> ```
+
+# Avaliku kausta tegemine veebilehele
+Alguses kasutasin käsku 
+```mkdir /home/it/public_html```
+Siis linkisin selle /var/www kaustaga käsuga
+```ln -s /home/it/public_html/ /var/www```
+Peale seda oli vaja lubada kasutaja kaustad ning selleks kasutasin käsku
+```a2enmod userdir```
+peale seda tegin apache2 teenusele restarti käsuga
+```service apache2 restart```
