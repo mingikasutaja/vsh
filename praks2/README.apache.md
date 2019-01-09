@@ -26,7 +26,8 @@ truncate -s 0 index.html
 <p>erik.sarik@khk.ee</p>
 
 </body>
-</html> ```
+</html> 
+```
 
 # Avaliku kausta tegemine veebilehele
 Alguses kasutasin käsku 
