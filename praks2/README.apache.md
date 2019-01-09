@@ -14,7 +14,7 @@ apt-get install apache2
 ## Kõigepealt tühjendasin faili käsuga var/www kaustas
 truncate -s 0 index.html
 ## lisasin järgmised asjad index.html faili
- `<!DOCTYPE html>
+ ```<!DOCTYPE html>
 <html>
 <head>
 <title>Erik Sarik veebileht</title>
@@ -26,4 +26,4 @@ truncate -s 0 index.html
 <p>erik.sarik@khk.ee</p>
 
 </body>
-</html> `
+</html> ```
