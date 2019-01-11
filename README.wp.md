@@ -30,3 +30,4 @@ Kõigepealt kontrolli kas see töötab käsuga
 </body>
 </html>
 ```
+Peale seda oli vaja ära muuta /etc/apache2/mods-enabled/php5.conf failis vaja ära muuta keelatud php moodulid (viimased viis rida) ning panna nad kommentaarideks
