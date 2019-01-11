@@ -5,4 +5,6 @@
 ```apt-get install mysql-server```
 ## Installeerisin Phpmyadmin teenuse
 ```apt-get install -y phpmyadmin```
-https://imgur.com/a/JUfUFM7
+
+        vsh/scrteenshot1.PNG
+      
