@@ -4,4 +4,4 @@ apt-get install php libapache2-mod-php php-mcrypt php-mysql
 ## Installeerisin MYSQL server
 apt-get install mysql-server
 ## Installeerisin Phpmyadmin teenuse
-´´´apt-get install -y phpmyadmin´´´
+```apt-get install -y phpmyadmin```
