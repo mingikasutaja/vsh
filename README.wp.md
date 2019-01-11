@@ -5,6 +5,10 @@
 ```apt-get install mysql-server```
 ## Installeerisin Phpmyadmin teenuse
 ```apt-get install -y phpmyadmin```
-
+Tee ära installatsioon ja konfiguratsioon
+Peale seda enablei mcrypt moodul kui seda juba ei kasutata
+Kõigepealt kontrolli kas see töötab käsuga
+ ```php -m | grep mcrypt ```
+ Kui midagi ei juhtu siis kasuta käsku ```php5enmod mcrypt```
         vsh/scrteenshot1.PNG
       
