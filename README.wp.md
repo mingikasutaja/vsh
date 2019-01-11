@@ -10,5 +10,7 @@ Peale seda enablei mcrypt moodul kui seda juba ei kasutata
 Kõigepealt kontrolli kas see töötab käsuga
  ```php -m | grep mcrypt ```
  Kui midagi ei juhtu siis kasuta käsku ```php5enmod mcrypt```
-        vsh/scrteenshot1.PNG
+  
+  Tõestus et asi töötab asub siin
+  vsh/scrteenshot1.PNG
       
