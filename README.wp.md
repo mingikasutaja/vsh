@@ -13,4 +13,20 @@ Kõigepealt kontrolli kas see töötab käsuga
   
   Tõestus et asi töötab asub siin
   vsh/scrteenshot1.PNG
-      
+  
+ ##PHP lehe paigaldamine
+ tegin faili nimega index.php kohta /var/www/html kuhu sisestasin rea
+ ```<?php phpinfo(); ?>```
+ Tõestus et asi töötab asub siin
+ vsh/screenshot2.PNG
+ kasutaja lehe tegemiseks tegin faili test.php kohta /var/www/public_html/ ning selle sisse kirjutasin read
+```
+<html>
+<head>
+<title> Testin asja PHP</title>
+</head>
+<body>
+<?php echo '<p> avalik leht </p>'; ?>
+</body>
+</html>
+```
