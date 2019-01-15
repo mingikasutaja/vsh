@@ -73,3 +73,9 @@ SSLCertificateFile    /etc/apache2/ssl/server.crt
 SSLCertificateKeyFile /etc/apache2/ssl/server.key
 ```
 
+Siis tegin apachele restarti ja asi töötas 
+```/etc/init.d/apache2 restart```
+
+Tõestus töötavast asjast on siin
+        vsh/Hõiva.PNG
+      
