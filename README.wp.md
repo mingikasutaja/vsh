@@ -114,8 +114,8 @@ andmebaasi loomine wordpressi jaoks
 
     exit;
 
-wordpressi paigaldamine
-
+## wordpressi paigaldamine
+```
 läksin 172.23.13.44/wordpress
 
 valisin English(United States)
@@ -145,3 +145,4 @@ Logisin wordpressi sisse
 Valisin Settings -> Permalinks
 
 Valisin "Post Name"
+```
