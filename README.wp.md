@@ -31,6 +31,7 @@ Kõigepealt kontrolli kas see töötab käsuga
 </html>
 ```
 Peale seda oli vaja ära muuta /etc/apache2/mods-enabled/php5.conf failis vaja ära muuta keelatud php moodulid (viimased viis rida) ning panna nad kommentaarideks
+# Praktikum 5
 # HTTPS konfigureerimine apache2 veebiserverile
 
 ## Võtme genereerimine
@@ -79,7 +80,7 @@ Siis tegin apachele restarti ja asi töötas
 Tõestus töötavast asjast on siin
         vsh/Hõiva.PNG
       
-# Praktikum 5
+
 ## Wordpressi paigaldamine ja konfigureerimine
 
 wordpressi installimine
