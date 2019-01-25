@@ -55,4 +55,4 @@ järgmiseks on vaja kaks vaili ainult linkida ja siis ongi kõik
 ```ls -l /etc/apache2/conf-available/```
 ```ls -l /etc/apache2/conf-enabled/```
 Apache konfiguratsiooni failist (dokuwiki.conf või apache.conf) tuleb ```Alias``` ja ```Allow from localhost 127.0.0.1 ::1```
-muuta endale sobivaks. Default lubab ainult hostist vaadata dokuwikit kuid ```Allow from all```
+muuta endale sobivaks. Default lubab ainult hostist vaadata dokuwikit kuid ```Allow from all``` lubab ükskõik kellel seda vaadata
