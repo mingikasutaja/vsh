@@ -1,5 +1,5 @@
 # Dokuwiki installatsioon
-
+Kasutasin järgmist juhendit https://www.dokuwiki.org/install:debian
 ## Lighttpd
 
 Kõigepealt tegin ```apt-get update``` ```apt-get install lighttpd```	 ja ```apt-get install php5-cgi php5 dokuwiki```
@@ -51,3 +51,8 @@ ning sisesta sinna järgmine rida
           DirectoryIndex index.php index.html index.cgi index.pl index.php index.xhtml index.htm
 </IfModule>
 ```
+järgmiseks on vaja kaks vaili ainult linkida ja siis ongi kõik
+```ls -l /etc/apache2/conf-available/```
+```ls -l /etc/apache2/conf-enabled/```
+Apache konfiguratsiooni failist (dokuwiki.conf või apache.conf) tuleb ```Alias``` ja ```Allow from localhost 127.0.0.1 ::1```
+muuta endale sobivaks. Default lubab ainult hostist vaadata dokuwikit kuid ```Allow from all```
