@@ -1,12 +1,18 @@
 # Dokuwiki installatsioon
-Kõigepealt tegin ```apt-get update``` ```apt-get install lighttpd```	 ja ```apt-get install php5-cgi php5 dokuwiki	 ```
-```lighty-enable-mod fastcgi fastcgi-php dokuwiki	 
-/​etc/​init.d/​lighttpd force-reload```
+
 ## Lighttpd
+
+Kõigepealt tegin ```apt-get update``` ```apt-get install lighttpd```	 ja ```apt-get install php5-cgi php5 dokuwiki```
+lighty-enable-mod fastcgi fastcgi-php dokuwiki	 /​etc/​init.d/​lighttpd force-reload
+
+
+
+
+## nginx
 ```/etc/nginx/sites-enabled/default```
 
-
-```  # serve static files from nginx
+```
+ # serve static files from nginx
     location ~ ^/dokuwiki/lib/.+\.(css|gif|js|png)$ {
         root /usr/share;
         expires 30d;
@@ -30,4 +36,18 @@ Kõigepealt tegin ```apt-get update``` ```apt-get install lighttpd```	 ja ```apt
     }
     location /dokuwiki/ {
         deny all;
-    }```
+    }
+```
+## Apache
+```sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt dokuwiki```
+Kui valid valiku "yes" siis PHP installeerib iseennast
+Kui sa näed lihtsalt "It works" lehte või midagi sarnast siis tee kindlaks et default index.html oleks eemaldatud saidi kaustast.
+
+
+Järgmiseks sisesta järgmine käst ```nano /etc/apache2/mods-enabled/dir.conf```
+ning sisesta sinna järgmine rida
+```
+<IfModule mod_dir.c>
+          DirectoryIndex index.php index.html index.cgi index.pl index.php index.xhtml index.htm
+</IfModule>
+```
